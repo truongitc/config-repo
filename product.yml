@@ -9,12 +9,6 @@ spring:
     username: root
     password:
     driver-class-name: com.mysql.jdbc.Driver
-  servlet:
-    context-path: /product
-  profiles:
-    active: local
-  application:
-    name: product
 eureka:
   client:
     EnableZoneAffinity: true
